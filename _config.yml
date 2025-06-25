@@ -15,19 +15,8 @@ website: sebastianohmsen.com
 darkmode: true
 
 # Social links
-#twitter_username: facespics
 github_username:  sebastian-ohmsen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-#instagram_username: jameswgrant
-#linkedin_username: jameswgrant
 xing_username: Sebastian_Ohmsen
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 #additional_links:
@@ -38,22 +27,25 @@ xing_username: Sebastian_Ohmsen
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/sebastian-ohmsen.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Sebastian and I am a freelance software engineer and consultant. 
-  
+about_content: > # this will include new lines to allow paragraphs
+  Hi, my name is Sebastian and I am a freelance software engineer and consultant. I have 20+ years of experience in creating digital products that focus on a good user experience.
+
+
+  I love to use <b>requirement analysis</b>, modern <b>architecture patterns</b> and <b>design principles</b> to create a good software architecture that allows me to implement a <b>modular</b> and <b>maintainable</b> solution. 
+
+  <p class="quote">To go beyond is as wrong as to fall short. - <i>Confucius</i></p>
+
+  My goal is to always write well-structured code that is robust and error tolerant. Technics like <b>clean code</b>, and <b>test-driven development</b> are the base of my daily work.
+
+
+  I have worked with a wide range of program languages and frameworks. The things that I currently use on a daily bases and that I have the most experience with are: <mark>C#</mark>, <mark>Javascript</mark> and <mark>HTML&CSS</mark>, <mark>.Net Razor pages</mark>, <mark>.Net Blazor</mark>, <mark>.Net MVC</mark>, <mark>xUnit</mark>,<mark>NSubstitute</mark>, <mark>FluentAssertions</mark>, <mark>Vite</mark>, <mark>Webpack</mark>, <mark>Mocha</mark>, <mark>Chai</mark>, <mark>Sinon.JS</mark>, and <mark>SASS</mark>.
 
 content:
   # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
+  #   layout: list # Type of content section (  list/text)
   #   content:
   #     - layout: top-middle
   #       title: Super awesome project
@@ -85,34 +77,42 @@ content:
   #       description: | # this will include new lines to allow paragraphs
   #           Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
-  # - title: Education # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       title: Harvard University
-  #       caption: 2010 - 2013
-  #       sub_title: BSc Computer Science
-  #       quote: >
-  #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-  #       description: | # this will include new lines to allow paragraphs
-  #         During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Hamburg University of Applied Sciences
+        caption: 2008 - 2011
+        sub_title: MSc Computer Science - Distributed Systems
+        description: | 
+          During my time as a student in the Master's program, I mainly focused on the different facets of human-machine interaction.
+          
+          As one of the members of the Ambient Intelligence Institute at the Hamburg University of Applied Sciences, I was involved in the realization of the Living Place Hamburg, one of the first smart home laboratories in Europe. 
 
-  #         I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          In addition to developing various projects in the lab, I have experienced different perspectives and approaches to technology in various projects with artists, textile technicians and fashion designers.
 
-  # - title: A Little More About Me
-  #   layout: text
-  #   content: | # this will include new lines to allow paragraphs
-  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-  #     - Rock climbing
-  #     - Gaming
-  #     - Knitting
-  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+          One of the highlights of these collaborations was the development of wearable electronic components for interactive clothing by Merrit Ohmsen.
 
-  #     Look at this cool image  
-  #     ![Trees](/images/landscape-trees.jpg "Trees")
+      - layout: left
+        title: Hamburg University of Applied Sciences
+        caption: 2002 - 2008
+        sub_title: BSc Computer Science for Technical Systems
+        description: |
+          During my degree at Hamburg University of Applied Sciences I learn skills such as developing software in teams or the basics of project management, in addition basics of software architecture, basic knowledge of circuit technology and hardware-related programming. 
+
+          In particular, this included reading and processing a wide variety of sensors. This quickly showed me the challenges of interacting with computers beyond keyboard and mouse interaction. 
+
+  - title: When I'm Not Programming
+    layout: text
+    content: | 
+      When I'm not developing software, I like to spend my time working with wood to build furniture or small utility items. 
+
+      As a father of two children, I also enjoy spending time outdoors with them, whether it's being active in nature, at the beach or discovering new cities and areas. 
+
+      The rest of the time you can find me working on the family bikes or simply relaxing with a good book.
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
